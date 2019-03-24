@@ -13,8 +13,8 @@ TIMEZONE = 'Asia/Tokyo'
 DEFAULT_LANG = 'en'
 
 THEME = 'theme'
-BOOTSTRAP_THEME = 'simplex'
-PYGMENTS_STYLE = 'monokai'
+BOOTSTRAP_THEME = 'lumen'
+PYGMENTS_STYLE = 'native'
 
 PLUGIN_PATHS = ['plugins/', ]
 
@@ -63,3 +63,11 @@ TAG_SAVE_AS = 'tag/{slug}/index.html'
 # Setting Domain
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_RETENTION = ['CNAME']
+
+# Disqus comments config
+DISQUS_SITENAME = 'hython'
+
+# google Analystic
+GOOGLE_ANALYTICS = 'UA-136778315-2'
+
+CC_LICENSE = 'CC-BY-NC-SA'
