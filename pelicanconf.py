@@ -16,6 +16,22 @@ THEME = 'theme'
 BOOTSTRAP_THEME = 'lumen'
 PYGMENTS_STYLE = 'native'
 
+# Markdown扩展
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.tables': {  # 表格
+        },
+        'markdown.extensions.toc': {     # 目录，设置看https://python-markdown.github.io/extensions/toc/
+            'title': 'TOC:',      # 目录题头
+            'toc_depth': 3,
+        },
+    },
+    'output_format': 'html5',
+}
+
 PLUGIN_PATHS = ['plugins/', ]
 
 PLUGINS = ['i18n_subsites', ]
